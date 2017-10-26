@@ -1,0 +1,32 @@
+{
+  "name": "MySpinClass",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "ejs": "^1.0.0",
+    "error-handler": "^0.1.4",
+    "express": "^4.15.3",
+    "express-error-handler": "^1.1.0",
+    "method-override": "^1.0.0",
+    "mongodb": "^2.2.28",
+    "morgan": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-parallel": "^0.5.1",
+    "jshint-stylish": "^2.2.1",
+    "less": "^2.7.2",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  }
+}
